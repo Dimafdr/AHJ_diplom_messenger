@@ -1,0 +1,26 @@
+.container {
+  font-size: 14px;
+  font-family: sans-serif;
+  color: #726b6b;
+  font-weight: 400;
+  width: 700px;
+  position: relative;
+}
+
+.addTicketButton {
+  padding: 10px 20px;
+  font: inherit;
+  color: inherit;
+  background-color: white;
+  border-radius: 10px;
+  border-color: #726b6b;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+}
+
+.addTicketButton:active {
+  border-color: #726b6b;
+  background-color: #faeeee;
+
+}

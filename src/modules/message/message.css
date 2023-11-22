@@ -1,0 +1,57 @@
+.message_audio {
+  margin-bottom: 10px;
+  margin-top: 16px;
+}
+
+.message_video,
+.message_img {
+  width: 300px;
+  height: 200px;
+}
+
+.message__showPosition {
+  background-image: url(../../../img/eye.png);
+  background-color: #fff;
+  background-size: cover;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  border: none;
+  cursor: pointer;
+}
+.message {
+  width: 70%;
+  margin: 5px 5px 10px 5px;
+  border: 1px solid #726b6b;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.messageData {
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+.myMessage {
+  text-align: right;
+  margin-left: auto;
+}
+
+.myMessage .messageData {
+  color: red;
+}
+
+.highlightMessage {
+  outline: 2px solid #726b6b;
+}
+
+.messageHiding {
+  opacity: 0;
+  display: none;
+}
+
+.fixmessage {
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,155 @@
+.messengerWindow {
+  font: inherit;
+  border: 1px solid #726b6b;
+  border-radius: 10px;
+  padding: 15px;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 1);
+  width: 600px;
+  position: absolute;
+  top: 0px;
+  left: 200px;
+}
+
+.messages {
+  height: 450px;
+  overflow: auto;
+  margin-bottom: 10px;
+}
+
+.form_footer {
+  width: 100%;
+  display: flex;
+}
+
+.messageInput {
+  display: inline-block;
+  padding: 5px 10px;
+  font: inherit;
+  border: 1px solid #726b6b;
+  border-radius: 10px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  resize: none;
+  overflow: auto;
+  width: 100%;
+}
+
+.activeUsers {
+  border: 1px solid #726b6b;
+  border-radius: 10px;
+  padding: 15px;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 1);
+  width: 300px;
+  position: absolute;
+  top: 10px;
+}
+
+.usersList {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.user {
+  margin-bottom: 20px;
+}
+
+.userYou {
+  color: red;
+}
+
+.user::before {
+  content: "";
+  width: 35px;
+  height: 35px;
+  border: 1px solid #726b6b;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.buttonForm {
+  width: 40px;
+  height: 40px;
+  margin-left: 15px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.buttonForm:hover {
+  background-color: rgba(228, 225, 225, 0.459);
+}
+
+.buttonForm:active {
+  outline: 1px solid black;
+}
+
+.postAudioRecording {
+  background-image: url(../../../img/microphone.png);
+  background-size: 30px;
+}
+
+.okAudioRecording {
+  background-image: url(../../../img/m_images_mark.png);
+  background-size: 15px;
+}
+
+.cansellAudioRecording {
+  background-image: url(../../../img/m_png-clipclose-button.png);
+  background-size: 15px;
+}
+
+.input__file-button {
+  background-image: url(../../../img/paperClip.png);
+  background-size: 40px;
+  display: block;
+}
+
+.fixMessageButton {
+  background-image: url(../../../img/50_50drawing_pin.png);
+  background-size: 30px;
+}
+
+.input__file {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+}
+
+.timer {
+  font-size: 30px;
+  text-align: center;
+  width: 90px;
+  height: 40px;
+  margin-left: 15px;
+}
+
+.formText {
+  flex-grow: 2;
+  height: 100%;
+  outline: none;
+  resize: none;
+  border: none;
+}
+
+.pinnedArea {
+  border: 2px solid black;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 5px;
+  display: flex;
+}
+
+.unFixMessageButton {
+  background-image: url(../../../img/50_50undrawing_pin.png);
+  background-size: 30px;
+  margin-top: 5px;
+}
