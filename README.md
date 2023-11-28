@@ -1,5 +1,5 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/dr1d9fb4fot6gy6s?svg=true)](https://ci.appveyor.com/project/Dimafdr/ahj-diplom-messenger)
-
+[![GitHub pages](https://dimafdr.github.io/AHJ_diplom_messenger/)]
 
 
 # Webpack5
